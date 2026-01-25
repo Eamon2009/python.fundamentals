@@ -6,7 +6,7 @@ while i<=n:
     b=input("Enter phone no:")
     phone[a]=b
     i=i+1
-l=phone.key()
+l=phone.keys()
 x=int(input("Enter the name to be searched:"))
 for i in l:
     if i==x:
